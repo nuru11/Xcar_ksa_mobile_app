@@ -156,34 +156,35 @@ class _SignUpState extends State<SignUp> {
 
                             const SizedBox(height: 20),
 
-                            TextFormField(
-  keyboardType: TextInputType.phone,
-  decoration: InputDecoration(
-   border: OutlineInputBorder(
-       borderRadius: BorderRadius.circular(8.0), // Add this line to set the border radius
-  ),
-    labelText: "Phone",
-    hintText: "Please enter Your Phone",
-    enabledBorder: OutlineInputBorder(
-      borderSide: BorderSide(
-        color: isDark ? Color(0xff555671) : Colors.black,
-        width: 1,
-      ),
-      borderRadius: BorderRadius.circular(12.0), 
-    ),
-  ),
-  validator: (value) {
-    if (value == null || value.isEmpty) {
-      return "Phone cannot be empty";
-    }
-    // Add additional validation logic for phone number if needed
-    return null;
-  },
-  onSaved: (value) {
-    model.last_name = value!;
-  },
-),
-                            const SizedBox(height: 20),
+//                             TextFormField(
+//   keyboardType: TextInputType.phone,
+//   decoration: InputDecoration(
+//    border: OutlineInputBorder(
+//        borderRadius: BorderRadius.circular(8.0), // Add this line to set the border radius
+//   ),
+//     labelText: "Phone",
+//     hintText: "Please enter Your Phone",
+//     enabledBorder: OutlineInputBorder(
+//       borderSide: BorderSide(
+//         color: isDark ? Color(0xff555671) : Colors.black,
+//         width: 1,
+//       ),
+//       borderRadius: BorderRadius.circular(12.0), 
+//     ),
+//   ),
+//   validator: (value) {
+//     if (value == null || value.isEmpty) {
+//       return "Phone cannot be empty";
+//     }
+//     // Add additional validation logic for phone number if needed
+//     return null;
+//   },
+//   onSaved: (value) {
+//     model.last_name = value!;
+//   },
+// ),
+
+                            // const SizedBox(height: 20),
                             TextFormField(
                               keyboardType: TextInputType.emailAddress,
                               obscureText: hidePassword,

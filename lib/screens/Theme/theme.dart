@@ -13,7 +13,7 @@ class ThemeManager with ChangeNotifier {
   }
 }
 
-const primaryColor = Color(0xFF000080);
+const primaryColor = Color(0xFFF57328);
 //const primaryColor = Color(0xFFFF7F00);
 const lightTitleColor = Color(0xFF1A1A1A);
 // const lightGreyTextColor = Color(0xFF484848);
@@ -31,7 +31,7 @@ ThemeData lightTheme = ThemeData(
   colorScheme: ColorScheme.fromSwatch().copyWith(
     brightness: Brightness.light,
     //primary: const Color(0xFFFF7F00),
-    primary: const Color(0xFF000080),
+    primary: const Color(0xFFF57328),
     primaryContainer: const Color(0xffFFFFFF),
     background: const Color(0xffF1F2F6),
   ),
@@ -46,7 +46,7 @@ ThemeData darkTheme = ThemeData(
   colorScheme: ColorScheme.fromSwatch().copyWith(
     brightness: Brightness.dark,
    // primary: const Color(0xFFFF7F00),
-    primary: const Color(0xFF000080),
+    primary: const Color(0xFFF57328),
     primaryContainer: const Color(0xff181824),
     background: const Color(0xff000000),
   ),

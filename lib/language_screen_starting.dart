@@ -136,7 +136,7 @@ class _LanguageScreenTwoState extends State<LanguageScreenTwo> {
         bottomNavigationBar: Padding(
           padding: const EdgeInsets.only(left: 10.0, right: 10, bottom: 10),
           child: Button1(
-            buttonColor: const Color(0xFF000080),
+            buttonColor: const Color(0xFFF57328),
             buttonText: lang.S.of(context).saveButton,
             onPressFunction: () {
               saveData(!isRtl && isRtl);

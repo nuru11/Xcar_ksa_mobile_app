@@ -83,7 +83,7 @@ class _LogInScreenState extends State<LogInScreen> {
   ),
 ),
                 const SizedBox(height: 5,),
-                Text('Xcars_KSA',style: kTextStyle.copyWith(color: isDark?Colors.white:const Color(0xFFF57328),fontWeight: FontWeight.bold,fontSize: 24),),
+                Text('Xcars_KSA',style: kTextStyle.copyWith(color: isDark?Colors.white:const Color(0xFFF50707),fontWeight: FontWeight.bold,fontSize: 24),),
                 const SizedBox(height: 50),
                 Container(
                   height: MediaQuery.of(context).size.height/1.6,

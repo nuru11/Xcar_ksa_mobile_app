@@ -134,7 +134,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
         bottomNavigationBar: Padding(
           padding: const EdgeInsets.only(left: 10.0, right: 10, bottom: 10),
           child: Button1(
-            buttonColor: const Color(0xFF000080),
+            buttonColor: const Color(0xFFF57328),
             buttonText: lang.S.of(context).saveButton,
             onPressFunction: () {
               saveData(!isRtl && isRtl);
@@ -327,7 +327,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
                       trailing: isSelected == languageList[i]
                           ? const Icon(
                               Icons.check_circle,
-                              color: Color(0xFF000080),
+                              color: Color(0xFFF57328),
                             )
                           : const Icon(
                               Icons.circle_outlined,

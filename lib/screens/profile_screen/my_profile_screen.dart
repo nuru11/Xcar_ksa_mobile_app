@@ -200,7 +200,7 @@ class _MyProfileScreenState extends State<MyProfileScreen> {
                       const Spacer(),
                       Button1(
                         buttonText: lang.S.of(context).updateProfileButton,
-                        buttonColor: const Color(0xFF000080),
+                        buttonColor: const Color(0xFFF57328),
                         onPressFunction: () {
                           if (validateAndSave()) {
                             EasyLoading.show(status: lang.S.of(context).updateHint);
